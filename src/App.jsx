@@ -9,7 +9,7 @@ import NoPage from "./pages/NoPage";
 
 const App = () => {
   return (
-    <div>
+    <div className="pt-14 overflow-x-hidden">
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
