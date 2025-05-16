@@ -6,11 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 export default function SimpleSlider() {
   var settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true, // Asegura que las flechas estén habilitadas
+    autoplay: true, // Habilita el autoplay
+    autoplaySpeed: 5000, // Velocidad del autoplay en milisegundos
     prevArrow: <button className="slick-prev">Previous</button>,
     nextArrow: <button className="slick-next">Next</button>,
   };
